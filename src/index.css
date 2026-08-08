@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0a6e7c #04070d;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #04070d;
+}
+::-webkit-scrollbar-thumb {
+  background: #0a6e7c;
+  border-radius: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #04070d;
+  color: #d8e6f5;
+  font-family: "Rajdhani", sans-serif;
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #00e5ff;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.font-display {
+  font-family: "Orbitron", sans-serif;
+}
+.font-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Glass panel */
+.glass {
+  background: linear-gradient(
+    180deg,
+    rgba(13, 21, 38, 0.72),
+    rgba(10, 16, 28, 0.55)
+  );
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(0, 229, 255, 0.14);
+}
+
+/* Grid background */
+.bg-grid {
+  background-image: linear-gradient(
+      rgba(0, 229, 255, 0.07) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(0, 229, 255, 0.07) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+/* Section eyebrow label */
+.eyebrow {
+  font-family: "JetBrains Mono", monospace;
+  letter-spacing: 0.3em;
+  font-size: 0.7rem;
+  color: #00e5ff;
+}
+
+/* Neon text */
+.text-neon {
+  text-shadow: 0 0 12px rgba(0, 229, 255, 0.55), 0 0 40px rgba(59, 130, 246, 0.25);
+}
+
+/* Custom cursor (desktop only, added via JS) */
+.cyber-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(0, 229, 255, 0.7);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.18s ease, height 0.18s ease, background 0.18s ease;
+  mix-blend-mode: screen;
+}
+.cyber-cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  background: #00e5ff;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
