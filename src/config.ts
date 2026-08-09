@@ -51,8 +51,8 @@ export const EVENT_CONFIG = {
 
   // ---------- Guest Speaker ----------
   guestSpeaker: {
-    name: "KarthikTheHacker",
-    designation: "[GUEST SPEAKER DESIGNATION]",
+    name: "Karthikeyan V (KarthikTheHacker)",
+    designation: ""Cybersecurity Educator | Security Researcher"",
     image: "/assets/guest-speaker.png",
     description:
       "An experienced cybersecurity enthusiast and security educator known for sharing practical knowledge and awareness about the evolving world of cybersecurity. Through his insights and real-world perspectives, he helps students understand digital threats, responsible security practices, and the importance of developing a strong cybersecurity mindset. His session will provide participants with an opportunity to learn, explore, and interact through an engaging cybersecurity-focused discussion.",
@@ -66,7 +66,7 @@ export const EVENT_CONFIG = {
   },
 
   // ---------- Club Leadership (exact — do not modify) ----------
-  leadership: [
+   leadership: [
     {
       name: "Mr. M. BarathiRaja",
       role: "FACULTY COORDINATOR",
@@ -103,6 +103,49 @@ export const EVENT_CONFIG = {
       designation: "CSE",
       photo: null as string | null,
     },
+    {
+      name: "Y. Keertinandhan",
+      role: "TECHNICAL COORDINATOR",
+      designation: "ECE",
+      photo: null as string | null,
+    },
+    {
+      name: "S. Sugash",
+      role: "CO-TECHNICAL COORDINATOR",
+      designation: "AI&DS",
+      photo: null as string | null,
+    },
+    {
+      name: "K.S. Vijay Vasanthan",
+      role: "EVENT COORDINATOR",
+      designation: "CSE",
+      photo: null as string | null,
+    },
+    {
+      name: "N. Saran Raj",
+      role: "CO-EVENT COORDINATOR",
+      designation: "CSE",
+      photo: null as string | null,
+    },
+    {
+      name: "T.S. Algin",
+      role: "DESIGN AND MEDIA LEAD",
+      designation: "AIML",
+      photo: null as string | null,
+    },
+    {
+      name: "C. Sri krishna",
+      role: "PUBLIC RELATIONS",
+      designation: "AI&DS",
+      photo: null as string | null,
+    },
+    {
+      name: "K.R. Berjin joe",
+      role: "TREASURER",
+      designation: "AI&DS",
+      photo: null as string | null,
+    },
+    
   ],
 
   // ---------- Social links (leave empty until supplied) ----------
