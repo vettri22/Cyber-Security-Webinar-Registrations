@@ -68,7 +68,7 @@ export const EVENT_CONFIG = {
   // ---------- Club Leadership (exact — do not modify) ----------
    leadership: [
     {
-      name: "Mr. M. BarathiRaja",
+      name: "Mr. M. Bharathi Raja",
       role: "FACULTY COORDINATOR",
       designation: "Assistant Professor / CSE",
       photo: null as string | null,
