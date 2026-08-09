@@ -52,7 +52,7 @@ export const EVENT_CONFIG = {
   // ---------- Guest Speaker ----------
   guestSpeaker: {
     name: "Karthikeyan V (KarthikTheHacker)",
-    designation: ""Cybersecurity Educator | Security Researcher"",
+    designation: "Cybersecurity Educator | Security Researcher",
     image: "/assets/guest-speaker.png",
     description:
       "An experienced cybersecurity enthusiast and security educator known for sharing practical knowledge and awareness about the evolving world of cybersecurity. Through his insights and real-world perspectives, he helps students understand digital threats, responsible security practices, and the importance of developing a strong cybersecurity mindset. His session will provide participants with an opportunity to learn, explore, and interact through an engaging cybersecurity-focused discussion.",
